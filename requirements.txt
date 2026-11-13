@@ -1,0 +1,5 @@
+flask>=3.0
+watchdog>=4.0
+pynput>=1.7
+yt-dlp[default]>=2025.11  # [default] pulls yt-dlp-ejs; YouTube yields no formats without it
+pytest>=8.0

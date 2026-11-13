@@ -1,0 +1,63 @@
+{
+ "estilos": {
+  "padrao": "Padrão da IDV: letras cinéticas, realce do perfil, blur e hold vivo",
+  "clean": "Clean: só o texto, entrada suave (fade + leve subida), realce só na cor, corpo menor"
+ },
+ "posicoes": {"topo": "Topo", "centro": "Centro", "base": "Base"},
+ "templates": {
+  "frase": {
+   "rotulo": "Frase-chave",
+   "descricao": "Uma linha de apoio e a frase principal no realce do cliente.",
+   "dur": 4.0,
+   "campos": [
+    {"chave": "apoio", "rotulo": "Linha de apoio (opcional)", "exemplo": "o que muda é"},
+    {"chave": "destaque", "rotulo": "Frase principal", "exemplo": "a estratégia"}
+   ]
+  },
+  "numero": {
+   "rotulo": "Número",
+   "descricao": "Número gigante (conta até o valor no estilo padrão), a palavra no realce e um apoio.",
+   "dur": 4.0,
+   "campos": [
+    {"chave": "numero", "rotulo": "Número", "exemplo": "63"},
+    {"chave": "rotulo", "rotulo": "Palavra no realce", "exemplo": "milhões"},
+    {"chave": "apoio", "rotulo": "Apoio (opcional)", "exemplo": "de eleitores"}
+   ]
+  },
+  "palavra": {
+   "rotulo": "Palavra única",
+   "descricao": "Uma palavra (ou duas) gigante, na cor de destaque.",
+   "dur": 2.5,
+   "campos": [
+    {"chave": "palavra", "rotulo": "Palavra", "exemplo": "agora"}
+   ]
+  },
+  "lista": {
+   "rotulo": "Lista",
+   "descricao": "Itens entrando um a um (até 5), os anteriores esmaecem.",
+   "dur": 5.0,
+   "campos": [
+    {"chave": "titulo", "rotulo": "Título (opcional)", "exemplo": "três passos"},
+    {"chave": "itens", "rotulo": "Itens (um por linha)", "exemplo": "planejar\nproduzir\nmedir", "multilinha": true}
+   ]
+  },
+  "troca": {
+   "rotulo": "Troca de frase",
+   "descricao": "Uma frase sai para a próxima entrar no mesmo lugar (antes × depois).",
+   "dur": 4.5,
+   "campos": [
+    {"chave": "antes", "rotulo": "Primeira frase", "exemplo": "não é sorte"},
+    {"chave": "depois", "rotulo": "Segunda frase (no realce)", "exemplo": "é método"}
+   ]
+  },
+  "citacao": {
+   "rotulo": "Citação",
+   "descricao": "Uma frase entre aspas e quem disse.",
+   "dur": 4.5,
+   "campos": [
+    {"chave": "frase", "rotulo": "Frase", "exemplo": "a gente ouve antes de falar", "multilinha": true},
+    {"chave": "autor", "rotulo": "Quem disse (opcional)", "exemplo": "Maria Silva"}
+   ]
+  }
+ }
+}
